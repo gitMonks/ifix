@@ -1,1 +1,247 @@
 /* CSS declarations go here */
+body {
+	padding-top: 52px;
+}
+
+a {
+	cursor: pointer;
+}
+.navbar-default {
+	background: #FFF;
+	border: none;
+}
+
+.navbar-default a {
+	color: #000 !important;
+	border-bottom: 2px solid #FFF;
+}
+
+.active a {
+	background: inherit !important;
+	font-weight: bold;
+}
+
+.navbar-default a:hover {
+	border-bottom: 2px solid blue !important;
+}
+#hero {
+	background: url('img/background_hero.jpg');
+	color: #FFF;
+}
+
+.overlay {
+	background: rgba(0, 0, 0, .6);
+	padding: 30px 0px 20px 0px;
+	/*height: 600px;*/
+}
+#hero h2 {
+	color: #FFDD30;
+	font-size: 50px;
+}
+
+#hero h1 {
+	color: #00B3E6;
+	font-size: 52px;
+}
+#hero p {
+	font-size: 18px;
+}
+
+@media (min-width: 992px){
+	#call-us {
+	    text-align: right;
+	}
+}
+#call-us {
+	background: rgba(0, 0, 0, .5);
+	/*border: 1px solid #DDD;*/
+	border-radius: 3px;
+	padding: 25px;
+}
+#call-us input {
+	margin-left: 1%;
+	width: 49%;
+	border-radius: 3px;
+	border: 1px solid #DDD;
+	height: 40px;
+	padding: 5px;
+	color: #000;
+}
+
+#call-us .btn {
+	width: 100%;
+	margin-top: 10px;
+	height: 40px;
+	padding: 5px;
+}
+
+.promise {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 50px;
+}
+
+.promise li {
+	background: rgba(0, 0, 0, .5);
+	/*border: 1px solid #FFF;*/
+	border-radius: 3px;
+	padding: 15px 0;
+	text-align: center;
+	margin-bottom: 10px;
+}
+#book {
+	margin-top: 15px;
+	padding: 30px 15px;
+}
+
+#book img {
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+#book h3 {
+	margin-bottom: 30px;
+}
+
+#book a {
+	cursor: pointer;
+}
+
+/*.image-container {
+	border: 1px solid blue;
+}
+.image-container .image-overlay {
+	display: block;
+	background: rgba(0, 0, 0, .7);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: opacity .5s; 
+	margin-top: -5px;
+}
+
+.active .image-container:hover .image-overlay,
+.image-container:hover .image-overlay {
+	opacity: 0;
+}*/
+
+.how-it-works {
+	background: #00B3E6;
+	padding: 30px 0;
+}
+
+.how-it-works ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.how-it-works li {
+	border: 1px solid #FFF;
+	border-radius: 3px;
+	padding: 20px 15px 15px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #FFF;
+	position: relative;
+}
+
+.how-it-works h3, .how-it-works h4 {
+	margin-bottom: 30px;
+}
+
+.how-it-works h4 {
+	color: #FFDD30;
+}
+
+
+.how-it-works li p {
+	font-size: 20px;
+}
+
+.badge {
+	background: #FFDD30;
+	color: #000;
+	font-size: 20px;
+	position: absolute;
+	top: -10px;
+	left: 50%;
+}
+
+.coverage-area {
+	background: url(img/coverage_map.png) ;
+	height: 500px;
+}
+
+footer {
+	padding: 50px 0;
+	background: #2D2D2C;
+	color: #FFF;
+}
+footer .col-xs-4 {
+	text-align: center;
+}
+footer ul {
+	list-style-type: none;
+}
+
+#select-device .active {
+	background: yellow;
+}
+
+#select-device h4 {
+	background: #2D2D2C;
+	color: #FFF;
+	padding: 15px 20px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-bottom: 0;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+.make {
+	list-style-type: none;
+	background: #00B3E6;
+	padding: 0 0 0 0;
+}
+
+.make li {
+	border-bottom: 1px solid #ddd; 
+}
+.make a, .model a {
+	display: inline-block;
+	color: #000;
+	width: 100%;
+	padding: 15px 20px;
+	background: #00B3E6;
+	cursor: pointer;
+}
+
+.make a:hover {
+	background: yellow;
+}
+
+.active-make {
+	background: #FFF !importnant;
+	color: red;
+}
+
+.model {
+	list-style-type: none;
+	padding: 0;
+}
+
+.model li, .repair li {
+	margin: 10px 0;
+	padding: 0 5px;
+}
+.model a, .repair a {
+	background: none;
+	border: 1px solid #ddd;
+	padding: 15px 0;
+	text-align: center;
+	width: 95%;
+}
